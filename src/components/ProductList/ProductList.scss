@@ -1,0 +1,15 @@
+.area {
+    display: flex;
+    justify-content: center;
+}
+
+.resultsContainer {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.productsContainer {
+    background-color: white;
+    border-radius: 4px;
+}

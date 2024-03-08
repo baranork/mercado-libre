@@ -1,0 +1,47 @@
+.header {
+    background-color: #FFE600;
+    //Trate de hacer el height de 48px como suelen usar en los diseños de header en produccion donde no tienen barra de categorias,
+    //Pero choca con los 18px pedidos de FontSize en la barra
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.areaContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+}
+
+.searchBox {
+    width: 100%;
+    min-height: 70%;
+    display: flex;
+}
+
+
+.input {
+    width: 95%;
+    border: none;
+    border-radius: 3px 0 0 3px;
+    font-size: 18px;
+    padding: 5px 20px;
+}
+
+.button {
+    border: none;
+    border-radius: 0 3px 3px 0;
+    width: 5%;
+    transition: filter 0.2s ease;
+    filter: brightness(100%);
+}
+
+.button:hover {
+    filter: brightness(90%);
+    cursor: pointer;
+}
